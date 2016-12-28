@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HTML 5 Game Dev
+comments: true
 tag: 
   - gamedev
   - html5
