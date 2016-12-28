@@ -1,10 +1,10 @@
 ---
 layout: default
 permalink: index.html
-title: Personal Homepage of foo boo
+title: Personal Homepage of Akash Kumar Dutta
 description: "Blogging on ...."
 ---
-
+{% comment %}
 ## [lanyon-plus](https://github.com/dyndna/lanyon-plus)
 
 Based on Jekyll theme: [Lanyon](http://lanyon.getpoole.com) by [**Mark Otto**](https://github.com/mdo)
@@ -14,7 +14,12 @@ Based on Jekyll theme: [Lanyon](http://lanyon.getpoole.com) by [**Mark Otto**](h
 * License: Open sourced under the [MIT license](http://sbamin.com/disclosure/#theme-major-credit--license). 
 
 Maximum four posts on front page where first two posts are featured, and remaining are date sorted.
+{% endcomment %}
+## **Welcome to Akash's Homepage**
 
+Hello, myself a second year undergraduate for IIT Kanpur.
+Hope you find somethind useful stuff around here!
+{% comment %}
 {% if site.twitter_widget_id %}
 <div class="text-tweets">
 <div class="tweets">
@@ -35,6 +40,7 @@ Maximum four posts on front page where first two posts are featured, and remaini
 {% else %}
 Twitter stream will show up here if `twitter_widget_id` is present is `_config.yml`. [Demo](http://sbamin.com)
 {% endif %}
+{% endcomment %}
 
 <div class="posts">
   {% for post in site.categories.featured limit:2 %}
