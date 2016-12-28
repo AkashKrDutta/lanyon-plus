@@ -18,7 +18,7 @@ Maximum four posts on front page where first two posts are featured, and remaini
 ## **Welcome to Akash's Homepage**
 
 Hello, myself a second year undergraduate for IIT Kanpur.
-Hope you find somethind useful stuff around here!
+Hope you find something useful stuff around here!
 {% comment %}
 {% if site.twitter_widget_id %}
 <div class="text-tweets">
