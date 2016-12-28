@@ -10,7 +10,7 @@ encoding: utf-8
 title:               Akash Kumar Dutta
 #tagline:             'foo's website
 description:         Akash's blog...
-url:                 
+url:   http://AkashKrDutta.github.io              
 baseurl:  ""
 urlimg: /images/
 markdown: kramdown
