@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: index.html
-title: Personal Homepage of Akash Kumar Dutta
+title: AKD
 description: "Blogging on ...."
 ---
 {% comment %}
@@ -15,10 +15,9 @@ Based on Jekyll theme: [Lanyon](http://lanyon.getpoole.com) by [**Mark Otto**](h
 
 Maximum four posts on front page where first two posts are featured, and remaining are date sorted.
 {% endcomment %}
-## **Welcome to Akash's Homepage**
-
-Hello, myself a second year undergraduate for IIT Kanpur.
-Hope you find somethind useful stuff around here!
+## **Welcome**
+<p style="text-align:right"><span style="font-style:italic">Quote</span><br>"By experiencing both, victory and defeat, running away and<br>	 shedding tears, a man will become a man."<br> <span style="font-style:italic">&mdash;&nbsp;Shanks, One Piece</span> </p>
+Thanks for visiting my homepage and considering your time worthy for my introduction! Hi! myself an enthusiastic sophomore from Computer Science and Engineering Department, IIT KANPUR. In Computer Science, my areas of interest are <code>parallel programming</code>, <code>web development</code>, <code>competitive programming</code> and <code>gamedev</code>.<br> Hope you get some useful stuff around here!<br>
 {% comment %}
 {% if site.twitter_widget_id %}
 <div class="text-tweets">
