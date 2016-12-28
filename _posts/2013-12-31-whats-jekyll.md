@@ -3,6 +3,7 @@ layout: post
 title: What's Jekyll?
 # date element overrides date in title format.
 date: 2015-1-31
+comments: true
 tag:
   - common_tag
   - other_tag
