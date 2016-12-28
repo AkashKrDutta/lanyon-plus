@@ -47,28 +47,28 @@ author:
   name:              Foo Boo
   url:               https://twitter.com/abcd
   avatar:         foo.png
-  #email:           
+  email:          akdboltzmann@gmail.com
 
 # Owner/author information
 owner:
-  name:           Foo Boo
+  name:           Akash Kumar Dutta
   avatar:         foo.png
-  #email:          
+  email:          akashdut@iitk.ac.in
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        abcd
-  facebook:       
+  facebook:	  akash.boltzmann      
   github:         xyz123abc
   stackexchange:  
-  linkedin:       https://www.linkedin.com/in/foo
+  linkedin:       akash-kumar-dutta
   instagram:      
   flickr:
   tumblr:  
-  google_plus:    https://plus.google.com/+foo
+  google_plus:    https://plus.google.com/u/0/106237575876703786081
   # orcid and google scholar IDs are different than standard username.
-  orcid: xyz123abc
-  gscholar: xyz123abc
+# orcid: xyz123abc
+# gscholar: xyz123abc
 
 ## sidebar links:
 # For external links add external: true
@@ -102,12 +102,7 @@ links:
 #twitter_widget_id: xyz123abc
 
 # Add disqus username for Disqus comment board:
-disqus_shortname: foo
+disqus_shortname: Akash
 
 # Analytics and webmaster tools stuff goes here
 #google_analytics:   xyz123abc
-
-#### For dummy website only - remove if you wish ####
-github_repo: https://github.com/dyndna/lanyon-plus
-version: 1.1.1
-## END ##
