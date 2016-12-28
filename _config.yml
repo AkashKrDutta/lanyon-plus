@@ -10,7 +10,7 @@ encoding: utf-8
 title:               Akash's Homepage
 #tagline:             'foo's website
 description:         Akash's blog...
-url:                 http://localhost:4000
+url:                 
 baseurl:  ""
 urlimg: http://localhost:4000/images/
 markdown: kramdown
