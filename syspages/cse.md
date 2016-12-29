@@ -44,7 +44,8 @@ function goBack() {
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search></gcse:search>
+<div class="gcse-searchresults-only"><gcse:search>
+</gcse:search></div>
 {% else %}
 This page will serve search results if Google Custom Search key is set in `_config.yml`
 {% endif %}
