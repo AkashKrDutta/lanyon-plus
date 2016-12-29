@@ -63,6 +63,7 @@ Twitter stream will show up here if `twitter_widget_id` is present is `_config.y
 <div class="posts">
   {% for post in site.posts limit:2 %}
   {% unless post.category contains "featured" %}
+  {% unless post.category contains "project" %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ site.url }}{{ post.url }}">
@@ -75,6 +76,7 @@ Twitter stream will show up here if `twitter_widget_id` is present is `_config.y
  {% if post.description.size > 140 %}{{ post.description | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %} <a href="{{ site.url }}{{ post.url }}" title="Read more"><strong>Read more...</strong></a>
   </div>
   {% unless forloop.last %}<hr class="transp">{% endunless %}
+  {% endunless %}
   {% endunless %}
   {% endfor %}
 </div>
