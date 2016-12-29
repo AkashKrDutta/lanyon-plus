@@ -11,7 +11,7 @@ Credits: {{ site.url }}/disclosure
 <body>
 <nav class="navbar-fixed-top">
 {% include sidebar.html %}
-
+  </nav>
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
@@ -28,8 +28,6 @@ Credits: {{ site.url }}/disclosure
           </h3>
         </div>
       </div>
-      </nav>
-  <div>
       <div class="container content">
         {{ content }}
         {% include footer.html %}
@@ -57,6 +55,5 @@ Credits: {{ site.url }}/disclosure
     </script>
     {% include scripts.html %}
   <script id="dsq-count-scr" src="//{{ site.disqus_shortname }}.disqus.com/count.js" async></script>
-  </div>
 </body>
 </html>
