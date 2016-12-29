@@ -10,9 +10,10 @@ category:
 ---
 ## HTML5 Game Development  
 For all those gaming nerds out there, there isn’t a better way to develop your gaming skills but to start from scratch of how a game works and to build your own one!
-HTML 5 provides rich environment to create your games using Javascript and the html5 canvas object.   <br>
+HTML 5 provides rich environment to create your games using Javascript and the html5 canvas object.<br>
 <!--more-->
-**PRE-REQUISITES**   
+**PRE-REQUISITES** 
+<br>
 Well all you need is to know the basics of html and javascript. And of course a little bit of enthu in the pot is forever welcomed !  :) <br>
 
 
