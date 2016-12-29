@@ -32,7 +32,7 @@ function goBack() {
     </form>
 </div>
 </div>
-<div>
+<div id="home-search" class="home">
 <script>
   (function() {
     var cx = '002150106876715375809:i8pvypnesum';
@@ -44,7 +44,7 @@ function goBack() {
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search></gcse:search>
+<gcse:search queryParameterName="searchString2"></gcse:search>
 {% else %}
 This page will serve search results if Google Custom Search key is set in `_config.yml`
 {% endif %}
