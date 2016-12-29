@@ -91,7 +91,7 @@ links:
 #  - title: <i class="iconside iconm-twitter"></i> Twitter
 #    url: https://twitter.com/abcd
 #    external: true
-  - title: <i class="fa fa-file-text-o" aria-hidden="true"></i> CV
+  - title: <i class="fa fa-file-text-o"></i> CV
     url: /cv/
   - title: <i class="iconside iconm-feed2"></i> Feed
     url: /feed.xml
