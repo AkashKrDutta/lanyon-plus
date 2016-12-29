@@ -31,13 +31,19 @@ tags:
 <a href="https://in.linkedin.com/in/{{ site.owner.linkedin }}" class="social-icons" title="LinkedIn profile"><i class="iconm iconm-linkedin2"></i></a>
 </span>
 </div>
+**Hi!**<br>
+First of all thanks for considering your time worthy for my introduction ! I am Akash Kumar Dutta, a second year undergraduate from IIT Kanpur. So many things to say about my self but, well I am total blank writing things right now, whatever I write next down will be a mind walk.<br>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ornare lectus a purus rutrum, a hendrerit quam condimentum. Donec vel ante maximus, vulputate libero ac, rhoncus justo. Phasellus purus nisl, auctor id tristique eu, maximus quis leo. Mauris ultricies ante quis vehicula accumsan. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi elit, feugiat non scelerisque eget, ultrices nec est. Morbi a est iaculis, commodo quam congue, posuere quam. Phasellus venenatis finibus eros, vitae malesuada nisl gravida vitae.
+**Why this site?**<br>
+Well I didnt wanted to write about my self in the first place. I love to do competitive programming, web dev, game dev and parallel programming. But something was lacking in my build up, which every coder one day or the other soon realises, it was expressing how they felt what they took pride in doing ! Not only expressing but sometimes you get to know a special idea that, something that you want to share, but with whom? So this one is just the outcome of that. If you are reading this, thanks a lot mate!<br>
 
-Praesent ac sem quis diam fermentum fermentum. Nullam turpis metus, elementum sit amet venenatis sed, placerat eget erat. Ut convallis ipsum vitae volutpat tristique. Cras a tempor lorem, quis aliquet dui. Nunc vel leo erat. Donec posuere massa sed justo luctus, accumsan porttitor ligula laoreet. Suspendisse sit amet nisi ultrices, venenatis lorem vel, posuere turpis. Fusce eget dictum nisi. Proin eu diam nisi. Quisque ut quam quis sem tincidunt efficitur vitae nec ex. Pellentesque ut dolor eros. Ut faucibus semper ultricies. Vestibulum nec nisl in magna porttitor dictum.
+**What to look for?**<br>
+If you are interested in my blogs, want any help regarding the topics, or want to discuss the out-of-box topics, I am forever ready to help you in the discussion. Morever, I will try my best to keep this updated so that you get to know things better about me and my doings.
+<br>
+Disclaimer- I really like anime, gaming and so many things ! So this site isnt only going to have tech related blogs !<br>
 
-Donec egestas eros arcu, id fermentum orci faucibus ac. Pellentesque facilisis elit eu tellus ultrices pulvinar. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ut eros et mi dapibus condimentum. Sed ante metus, porttitor ut aliquet vitae, ullamcorper quis ex. Donec ac efficitur arcu, a malesuada dolor. Nulla magna arcu, semper quis augue sed, rhoncus porta urna. Duis dictum dapibus diam, ac sodales ipsum lobortis vel. Nulla ac dictum metus. Morbi sollicitudin tortor eu diam tristique, ut tincidunt tortor euismod. Integer non tincidunt metus. In tempus sem dapibus, venenatis mi placerat, condimentum orci. Nunc et tellus diam.
+**What you can do?**<br>
+Well you can discuss about the posts in the disqus threads, if you are interested or contact me if any kind of help needed. I got my inspiration reading blogs of my seniors, so if you dont have your one and like to share your thoughts this, is the place !<br>
 
-Nam imperdiet consequat lorem. Donec sagittis tortor eu dolor efficitur ullamcorper. Pellentesque dolor arcu, vestibulum quis laoreet at, tincidunt nec mauris. Praesent id laoreet arcu. Quisque blandit nunc at elit auctor, eget tempor nunc sodales. Cras venenatis lacinia tempus. Proin erat nisl, pharetra a massa volutpat, rhoncus pellentesque nisi. Mauris in elit dictum, egestas tellus et, laoreet velit. Nam auctor tempus augue sit amet fermentum. Nulla accumsan arcu quis efficitur aliquam. Nulla dapibus in neque eget facilisis. Nullam nisi augue, maximus at lectus sit amet, ornare malesuada ante. Morbi volutpat justo a urna pharetra elementum. Proin tempor ac felis ac consequat. Proin feugiat, nulla ac sagittis consequat, ante diam auctor tortor, in suscipit leo ante id dolor. Vivamus posuere pellentesque magna, sagittis blandit neque convallis sed.
-
-*[volutpat]: Tooltip for abbreviation.
+**About me finally...**<br>
+Not letting emotions run over, I am from Tatanagar, Jamshedpur. I had my education for Jamshedpur Public School and landed up at IIT Kanpur after clearing JEE. (THE exam in India (sarcasm meant :P) ). The journey till now ... well I can say was just amazing, and really doesnt deserves this place to be written ! I will cover up the journey in one of my blogs soon enough, so you get to know about what is the life of an engineer :P and the trolled life of an IITian. Lets hope you really find something interesting or useful in here. In case, please feel free to comment !
