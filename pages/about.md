@@ -32,7 +32,7 @@ tags:
 </span>
 </div>
 **Hi!**<br>
-First of all, thanks for considering your time worthy for my introduction ! I am Akash Kumar Dutta, a second year undergraduate from IIT Kanpur. So many things to say about my self but, well I am total blank writing things right now, whatever I write next down will be a mind walk.<br>
+First of all, thanks for considering your time worthy for my introduction! I am Akash Kumar Dutta, a second year undergraduate from IIT Kanpur. So many things to say about my self but, well I am total blank writing things right now, whatever I write next down will be a mind walk.<br>
 
 **Why this site?**<br>
 Well I didnt wanted to write about my self in the first place. I love to do <code>competitive programming</code>, <code>web dev</code>, <code>game dev</code> and <code>parallel programming </code>. But something was lacking in my build up, which every coder one day or the other soon realises, it was expressing how they felt what they took pride in doing ! Not only expressing but sometimes you get to know a special idea that, something that you want to share, but with whom? So this one is just the outcome of that. If you are reading this, thanks a lot mate!<br>
