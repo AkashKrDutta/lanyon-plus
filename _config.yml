@@ -81,7 +81,7 @@ links:
     url: /blog/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
-  - title: <i class="fa fa-briefcase"></i>Projects
+  - title: <i class="fa fa-briefcase"></i> Projects
     url: /projects/
   - title: <i class="fa fa-archive"></i> Archive
     url: /archive/
