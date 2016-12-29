@@ -9,9 +9,9 @@ Credits: {{ site.url }}/disclosure
 {% include head.html %}
 
 <body>
-<nav class="navbar-fixed-top">
+
 {% include sidebar.html %}
-  </nav>
+
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
@@ -28,6 +28,7 @@ Credits: {{ site.url }}/disclosure
           </h3>
         </div>
       </div>
+
       <div class="container content">
         {{ content }}
         {% include footer.html %}
@@ -41,14 +42,11 @@ Credits: {{ site.url }}/disclosure
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('#sidebar');
         var checkbox = document.querySelector('#sidebar-checkbox');
-
         document.addEventListener('click', function(e) {
           var target = e.target;
-
           if(!checkbox.checked ||
              sidebar.contains(target) ||
              (target === checkbox || target === toggle)) return;
-
           checkbox.checked = false;
         }, false);
       })(document);
