@@ -17,6 +17,6 @@ description: "Projects I have done"
 {% endif %}
  {% if post.description.size > 140 %}{{ post.description | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %} <a href="{{ site.url }}{{ post.url }}" title="Read more"><strong>Read more...</strong></a>
   </div>
-{% unless forloop.last %}<hr class="transp">{% endunless %}
+{% unless forloop.last %}<hr>{% endunless %}
   {% endfor %}
 </div>
