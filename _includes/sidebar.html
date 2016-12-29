@@ -28,11 +28,16 @@
     {% endfor %}
     {% endcomment %}
 
+<div class="post-author text-center">
+            <img src="{{ site.urlimg }}{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
+</div>
+<center> Akash Kumar Dutta </center>
+<br>
     {% for link in site.links %}
             {% if link.external %}
-                    <a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+                    <center><a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ link.url }}" target="_blank">{{ link.title }}</a></center>
                 {% else %}
-                    <a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                    <center><a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></center>
                 {% endif %}
     {% endfor %}     
     {% comment %}
