@@ -1,106 +1,86 @@
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
-<!-- link href="http://gmpg.org/xfn/11" rel="profile" -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
+---
+layout: default
+permalink: index.html
+title: AKD
+description: "Blogging on github.io"
+---
+{% comment %}
+## [lanyon-plus](https://github.com/dyndna/lanyon-plus)
 
-<!-- Enable responsiveness on mobile devices-->
-<meta name="HandheldFriendly" content="True">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+Based on Jekyll theme: [Lanyon](http://lanyon.getpoole.com) by [**Mark Otto**](https://github.com/mdo)
 
-<title>
-  {% if page.title == "Home" %}
-    {{ site.title }} &middot; {{ site.tagline }}
-  {% else %}
-    {{ page.title }} &middot; {{ site.title }}
-  {% endif %}
-</title>
+* add-ons by [Samir Amin](http://sbamin.com)
+* [Site features]({{ site.url}}/disclosure#i-classfa-fa-thumbs-o-up-credits-for-site-featuresi)
+* License: Open sourced under the [MIT license](http://sbamin.com/disclosure/#theme-major-credit--license). 
 
-<!-- Search Engine Optimization -->
-<meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 50 }}{% else %}{{ site.description }}{% endif %}">
-{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-{% if page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
-{% if page.nofollow == true %}<meta name="robots" content="nofollow">{% endif %}
-{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+Maximum four posts on front page where first two posts are featured, and remaining are date sorted.
+{% endcomment %}
+# **Welcome**
+<i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i><span style="font-family:arizonia;font-size:200%">"By experiencing both, victory and defeat, running away and<br>	 shedding tears, a man will become a man."<br>&mdash;&nbsp;Shanks, One Piece</span>
 
-{% if site.owner.twitter %}<!-- Twitter Cards -->
-  {% include twitter_card.html %}
+<!--p style="text-align:right"><span style="font-style:italic">Quote<br>"By experiencing both, victory and defeat, running away and<br>	 shedding tears, a man will become a man."</span><br> <span style="font-style:italic">&mdash;&nbsp;Shanks, One Piece</span> </p-->
+Hi! myself an enthusiastic sophomore from Computer Science and Engineering Department, IIT KANPUR. In Computer Science, my areas of interest are <code>parallel programming</code>, <code>web development</code>, <code>competitive programming</code> and <code>gamedev</code>.<br> Hope you get some useful stuff around here!<br>
+{% comment %}
+{% if site.twitter_widget_id %}
+<div class="text-tweets">
+<div class="tweets">
+<a class="twitter-timeline"
+  data-dnt="true"
+  width="600"
+  height="250"
+  href="https://twitter.com/{{ site.owner.twitter }}"
+  data-widget-id="{{ site.twitter_widget_id }}"
+  data-tweet-limit="2"
+  data-chrome="noheader nofooter noborders noscrollbar transparent">
+  Recent Tweets</a>
+</div>
+<script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</div>
+{% else %}
+Twitter stream will show up here if `twitter_widget_id` is present is `_config.yml`. [Demo](http://sbamin.com)
 {% endif %}
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 50 }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:creator" content="@{{ site.owner.twitter }}">
-<!-- End Twitter Cards -->
+{% endcomment %}
 
-<!-- Open Graph -->
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="article">
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.content %}{{ page.content | strip_html | truncatewords: 50 }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:site_name" content="{{ site.title }}">
-{% if page.imagefeature %}
-  {% if page.imagefeature contains 'http' %}
-    {% assign domain = '' %}
-  {% else %}
-    {% assign domain = site.urlimg %}
-  {% endif %}
-<meta property="og:image" content="{{ domain }}{{ page.imagefeature }}">{% else %}
-<meta property="og:image" content="{% if page.imagesummary %}{{ site.urlimg }}{{ page.imagesummary }}{% else %}{{ site.urlimg }}{{ site.default_logo }}{% endif %}">{% endif %}
-{% if page.videofeature %}<meta property="og:video" content="{{ page.videofeature }}">{% endif %}
-<meta property="fb:app_id" content="1003108156422006">
-<meta property="fb:admins" content="817465054">
+<div class="posts">
+  {% for post in site.categories.featured limit:2 %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.url }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-<!-- Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400|Tangerine|Inconsolata">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ site.baseurl }}/public/css/iconmoon.css">
-
-<!-- CSS -->
-<link rel="stylesheet" href="{{ site.baseurl }}/public/css/style.min.css">
-{% if page.category contains 'mypubs' or page.category contains 'myaoi' %} 
-<link rel="stylesheet" href="{{ site.baseurl }}/public/css/publ.css">
-<script src="{{ site.baseurl }}/public/js/jquery.min.js"></script>
+  {% if post.modified.size > 2 %}<span class="post-date indexpg" itemprop="dateModified" content="{{ post.modified | date: "%Y-%m-%d" }}"><i class="fa fa-edit" title="Last updated"> {{ post.modified | date_to_string }}</i> <a href="{{ site.url }}/featured" title="Featured posts"><i class="fa fa-paperclip" title="Featured" class="social-icons"></i></a></span>{% else %}<span class="post-date indexpg" itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%d" }}"><i class="fa fa-calendar" title="Date published"> {{ post.date | date_to_string }}</i> <a href="{{ site.url }}/featured#disqus_thread" title="Featured posts"><i class="fa fa-paperclip" title="Featured" class="social-icons"></i></a></span>
 {% endif %}
-<!-- Add-on CSS to override system-wide defaults -->
-<link rel="stylesheet" href="{{ site.baseurl }}/public/css/addon.css">
+ {% if post.description.size > 140 %}{{ post.description | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %} <a href="{{ site.url }}{{ post.url }}" title="Read more"><strong>Read more...</strong></a>
+  </div>
+  <hr class="transp">
+  {% endfor %}
+</div>
 
-<!-- CSS override per page -->
-{% if page.style %}
-   <style type="text/css">
-       {{ page.style }}
-   </style>
+<div class="posts">
+  {% for post in site.posts limit:2 %}
+  {% unless post.category contains "featured" %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.url }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+  {% if post.modified.size > 2 %}<span class="post-date indexpg" itemprop="dateModified" content="{{ post.modified | date: "%Y-%m-%d" }}"><i class="fa fa-edit" title="Last updated"> {{ post.modified | date_to_string }}</i></span>{% else %}<span  class="post-date indexpg" itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%d" }}"><i class="fa fa-calendar" title="Date published"> {{ post.date | date_to_string }}</i></span>
 {% endif %}
-
-<!-- Java scripts -->
-<!-- <script src="{{ site.baseurl }}/public/js/jquery.min.js"></script> -->
-
-<!-- Icons -->
-<!-- 16x16 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
-<!-- 32x32 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.png">
-<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/icons/apple-touch-icon-precomposed.png">
-<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/images/icons/apple-touch-icon-72x72-precomposed.png">
-<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/icons/apple-touch-icon-114x114-precomposed.png">
-<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/icons/apple-touch-icon-144x144-precomposed.png">
-<!-- 180x180 (precomposed) for iPhone 6 -->
-<link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ site.url }}/images/icons/apple-touch-icon-180x180.png">
-<!-- 192x192 (precomposed) for Android -->
-<link rel="icon" type="image/png" sizes="192x192"  href="{{ site.url }}/images/icons/android-icon-192x192.png">
-
-{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
-<link rel="canonical" href="{{ canonical }}">
-{% if site.owner.google_plus %}<link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %}
-
-<!-- RSS -->
-<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/feed.xml">
-
-{% if page.mathjax %}
-  {% include mathjax_support.html %}
-{% endif %}
-
-</head>
+ {% if post.description.size > 140 %}{{ post.description | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %} <a href="{{ site.url }}{{ post.url }}" title="Read more"><strong>Read more...</strong></a>
+  </div>
+  {% unless forloop.last %}<hr class="transp">{% endunless %}
+  {% endunless %}
+  {% endfor %}
+</div>
+<h3 class="post-title">
+<div class="pagination" style="margin: 0.5rem;">
+    <a class="pagination-item older" href="{{ site.url }}/blog"><i class="fa fa-edit"> Blog</i></a>
+    <a class="pagination-item newer" href="{{ site.url }}/tags"><i class="fa fa-tags"> Tags</i></a>
+</div>
+</h3>
