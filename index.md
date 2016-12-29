@@ -16,7 +16,7 @@ Based on Jekyll theme: [Lanyon](http://lanyon.getpoole.com) by [**Mark Otto**](h
 Maximum four posts on front page where first two posts are featured, and remaining are date sorted.
 {% endcomment %}
 # **Welcome**
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i><span style="font-family:Tangerine,serif;font-size:200%">"By experiencing both, victory and defeat, running away and shedding tears, a man will become a man."&nbsp;&mdash;&nbsp;Shanks, One Piece</span>
+<i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i><span style="font-family:Tangerine;font-size:200%">"By experiencing both, victory and defeat, running away and<br>	 shedding tears, a man will become a man."<br>&mdash;&nbsp;Shanks, One Piece</span>
 
 <!--p style="text-align:right"><span style="font-style:italic">Quote<br>"By experiencing both, victory and defeat, running away and<br>	 shedding tears, a man will become a man."</span><br> <span style="font-style:italic">&mdash;&nbsp;Shanks, One Piece</span> </p-->
 Hi! myself an enthusiastic sophomore from Computer Science and Engineering Department, IIT KANPUR. In Computer Science, my areas of interest are <code>parallel programming</code>, <code>web development</code>, <code>competitive programming</code> and <code>gamedev</code>.<br> Hope you get some useful stuff around here!<br>
@@ -42,7 +42,7 @@ Hi! myself an enthusiastic sophomore from Computer Science and Engineering Depar
 Twitter stream will show up here if `twitter_widget_id` is present is `_config.yml`. [Demo](http://sbamin.com)
 {% endif %}
 {% endcomment %}
-
+<hr>
 <div class="posts">
   {% for post in site.categories.featured limit:2 %}
   <div class="post">
@@ -56,12 +56,12 @@ Twitter stream will show up here if `twitter_widget_id` is present is `_config.y
 {% endif %}
  {% if post.description.size > 140 %}{{ post.description | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %} <a href="{{ site.url }}{{ post.url }}" title="Read more"><strong>Read more...</strong></a>
   </div>
-  <hr class="transp">
+  <hr>
   {% endfor %}
 </div>
 
 <div class="posts">
-  {% for post in site.posts limit:2 %}
+  {% for post in site.posts limit:10 %}
   {% unless post.category contains "featured" %}
   {% unless post.category contains "project" %}
   <div class="post">
@@ -75,7 +75,7 @@ Twitter stream will show up here if `twitter_widget_id` is present is `_config.y
 {% endif %}
  {% if post.description.size > 140 %}{{ post.description | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %} <a href="{{ site.url }}{{ post.url }}" title="Read more"><strong>Read more...</strong></a>
   </div>
-  {% unless forloop.last %}<hr class="transp">{% endunless %}
+  {% unless forloop.last %}<hr>{% endunless %}
   {% endunless %}
   {% endunless %}
   {% endfor %}
