@@ -10,7 +10,7 @@ encoding: utf-8
 title:               Akash Kumar Dutta
 #tagline:             'foo's website
 description:         Akash's blog...
-url:   http://AkashKrDutta.github.io              
+url:                
 baseurl:  ""
 urlimg: /images/
 markdown: kramdown
@@ -91,11 +91,15 @@ links:
 #  - title: <i class="iconside iconm-twitter"></i> Twitter
 #    url: https://twitter.com/abcd
 #    external: true
+  - title: <i class="fa fa-file-text-o" aria-hidden="true"></i> CV
+    url: /cv/
   - title: <i class="iconside iconm-feed2"></i> Feed
     url: /feed.xml
 
-# Google Custom Search:
-# google_search: 002150106876715375809:i8pvypnesum
+
+
+#Google Custom Search:
+#google_search: 002150106876715375809:7zkvohvnzny
 
 # Twitter stream widget:
 # Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
