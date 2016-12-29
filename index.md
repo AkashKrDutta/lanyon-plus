@@ -16,7 +16,7 @@ Based on Jekyll theme: [Lanyon](http://lanyon.getpoole.com) by [**Mark Otto**](h
 Maximum four posts on front page where first two posts are featured, and remaining are date sorted.
 {% endcomment %}
 # **Welcome**
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i><span style="font-family:Arizonia;font-size:200%">"By experiencing both, victory and defeat, running away and shedding tears, a man will become a man."&nbsp;&mdash;&nbsp;Shanks, One Piece</span>
+<i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i><span style="font-family:Arizonia,serif;font-size:200%">"By experiencing both, victory and defeat, running away and shedding tears, a man will become a man."&nbsp;&mdash;&nbsp;Shanks, One Piece</span>
 
 <!--p style="text-align:right"><span style="font-style:italic">Quote<br>"By experiencing both, victory and defeat, running away and<br>	 shedding tears, a man will become a man."</span><br> <span style="font-style:italic">&mdash;&nbsp;Shanks, One Piece</span> </p-->
 Hi! myself an enthusiastic sophomore from Computer Science and Engineering Department, IIT KANPUR. In Computer Science, my areas of interest are <code>parallel programming</code>, <code>web development</code>, <code>competitive programming</code> and <code>gamedev</code>.<br> Hope you get some useful stuff around here!<br>
