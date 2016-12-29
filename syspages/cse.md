@@ -44,7 +44,7 @@ function goBack() {
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search queryParameterName="searchString2"></gcse:search>
+<gcse:searchbox-only resultsUrl="{{ site.url }}/cse/" queryParameterName="searchString"></gcse:searchbox-only>
 {% else %}
 This page will serve search results if Google Custom Search key is set in `_config.yml`
 {% endif %}
