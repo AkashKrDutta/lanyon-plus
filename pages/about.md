@@ -35,7 +35,7 @@ tags:
 First of all, thanks for considering your time worthy for my introduction! I am Akash Kumar Dutta, a second year undergraduate from IIT Kanpur. So many things to say about my self, but well, I am total blank writing things right now!<br>
 
 **Why this site?**<br>
-Well I didnt wanted to write about my self in the first place. I love to do <code>competitive programming</code>, <code>game dev</code>, <code>parallel programming </code> and <code>web dev</code>. But something was lacking in my build up, which every coder one day or the other soon realizes, it was expressing how they felt, what they took pride in doing! Not only expressing but sometimes you get to know a special idea, something that you want to share, but with whom? So this one is just the outcome of that. If you are reading this, thanks a lot mate!<br>
+Well I didnt wanted to write about my self in the first place. I love to do <code>competitive programming</code>, <code>game dev</code>, <code>parallel programming</code> and <code>web dev</code>. But something was lacking in my build up, which every coder one day or the other soon realizes, it was expressing how they felt, what they took pride in doing! Not only expressing but sometimes you get to know a special idea, something that you want to share, but with whom? So this one is just the outcome of that. If you are reading this, thanks a lot mate!<br>
 
 **What to look for?**<br>
 If you are interested in my blogs, want any help regarding the topics, or want to discuss the out-of-box topics, I am forever ready to help you in the discussion. Morever, I will try my best to keep this updated so that you get to know things better about me and my doings.
