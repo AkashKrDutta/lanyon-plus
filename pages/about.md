@@ -40,7 +40,7 @@ Well I didnt wanted to write about my self in the first place. I love to do <cod
 **What to look for?**<br>
 If you are interested in my blogs, want any help regarding the topics, or want to discuss the out-of-box topics, I am forever ready to help you in the discussion. Morever, I will try my best to keep this updated so that you get to know things better about me and my doings.
 <br>
-Disclaimer- I really like anime, gaming and so many things ! So this site isnt only going to have tech related blogs !<br>
+Disclaimer- I really like anime, gaming and so many things ! So this site isnt only going to have coding related blogs !<br>
 
 **What you can do?**<br>
 Well you can discuss about the posts in the disqus threads, if you are interested, or contact me if any kind of help needed. I got my inspiration reading blogs of my seniors, so if you dont have your one and like to share your thoughts, this is the place!<br>
