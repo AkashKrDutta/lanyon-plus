@@ -37,6 +37,7 @@ Till this is sufficient for your Kick Start, what you should remember is that yo
 practise things regularly in order to hone your skills. I know there will be people having done these already, 
 for those people reading this, you all are at a step ahead from others, you may explore other unkown fields such as 
 Parallel Programming, Machine Learning.. how ? (get to know your seniors!).<br>
+
 **Things Not To Do**
 <br>
 Well there is no restriction on things not to do... try out everything, thats the best way to learn!
