@@ -44,5 +44,5 @@ Well there is no restriction on things not to do... try out everything, thats th
 But I would suggest only one thing to the freshmen: _Not to panic when things not go your way, relax and try learing things
 from here, the days of mugging are gone._<br>
 
-Also this was just my view of an ideal approach, I said already to only take hints from these things, new campus is left 
+Also this was just my view of an ideal approach, I said already, only to take hints from these things, new campus is left 
 for your exploration !
