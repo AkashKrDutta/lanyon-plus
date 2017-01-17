@@ -30,14 +30,14 @@ not allowed in first sem ? (really ?) But then you have the CC(Computer Center),
 Next grab up some <code>html</code>, <code>javascript</code>, and <code>CSS</code> and use it in making a very simple homepage for yourself.
 [See here for the details](http://www.iitk.ac.in/cc/homepage/).
 Done ? Now comes the most important part. Get an account in <code>Codechef</code> or <code>Hackerrank</code>, they are 
-competitive programming sites having large community of brilliant coders and start solving the easy questions, this will help your in 1st year
+competitive programming sites having large community of brilliant coders. Start solving the easy questions, this will help you in the 1st year
 C Language course. Next comes <code>Git</code>, get an account in <code>github</code> and learn how to use it (My Suggestion: make your homepage by using github). The 
 open source world belongs to it so you may love it there, moreover git will be required also all along your career life.
 Till this is sufficient for your Kick Start, what you should remember is that you must 
 practise things regularly in order to hone your skills. I know there will be people having done these already, 
-for those people reading this you all are at a step ahead from others, you may explore other unkown fields such as 
+for those people reading this, you all are at a step ahead from others, you may explore other unkown fields such as 
 Parallel Programming, Machine Learning.. how ? (get to know your seniors!).<br>
-
+**Things Not To Do**
 Well theres no restriction on things not to do... try out everything, thats the best way to learn.
 But I would suggest only one thing to freshmen: Not to panic when things not go your way, relax and try learing things
 from here, the days of mugging are gone.<br>
