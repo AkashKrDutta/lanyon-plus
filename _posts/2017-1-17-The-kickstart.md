@@ -7,9 +7,9 @@ tag:
 comments: true
 ---
 
-Well I am a Student Guide and I got this question:
+Well I am a Student Guide and I got this question asked:
 <br>
-Question: What is the first thing one should try if you want to suceed in THE coding world?
+Question: What is the first thing one should try if you want to succeed in THE coding world?
 <br>
 My "bachcha" asked me this question who is from the CSE Department. I knew that there is always a lot of
 discussion and debate but a lack of proper consultation about it in the freshman as to what to start from. How to build up your coding skills
