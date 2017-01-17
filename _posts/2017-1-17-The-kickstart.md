@@ -26,7 +26,7 @@ one.<br>
 <br>
 Switch your operating system. Windows user? Days gone. Get yourself a <code>UNIX</code> based system. Laptops 
 not allowed in first sem? (really?) But then you have the CC(Computer Center), roll with it. Learn the basics of UNIX based systems, this is important as you will be using Linux all your stay at IITK.
-(No need to spend the whole time there barring you from Wing activities, do it slowly and steadily).
+(No need to spend the whole time in CC barring you from Wing activities, do it slowly and steadily).
 Next grab up some <code>html</code>, <code>javascript</code>, and <code>CSS</code> and use it in making a very simple homepage for yourself.
 <br>
 [See here for the details](http://www.iitk.ac.in/cc/homepage/).
