@@ -38,9 +38,10 @@ practise things regularly in order to hone your skills. I know there will be peo
 for those people reading this, you all are at a step ahead from others, you may explore other unkown fields such as 
 Parallel Programming, Machine Learning.. how ? (get to know your seniors!).<br>
 **Things Not To Do**
-Well theres no restriction on things not to do... try out everything, thats the best way to learn.
-But I would suggest only one thing to freshmen: Not to panic when things not go your way, relax and try learing things
-from here, the days of mugging are gone.<br>
+<br>
+Well there is no restriction on things not to do... try out everything, thats the best way to learn!
+But I would suggest only one thing to the freshmen: _Not to panic when things not go your way, relax and try learing things
+from here, the days of mugging are gone._<br>
 
 Also this was just my view of an ideal approach, I said already to only take hints from these things, new campus is left 
 for your exploration !
