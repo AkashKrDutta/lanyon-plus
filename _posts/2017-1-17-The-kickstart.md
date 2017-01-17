@@ -34,7 +34,7 @@ Next grab up some <code>html</code>, <code>javascript</code>, and <code>CSS</cod
 Done? Now comes the most important part. Get an account in <code>Codechef</code> or <code>Hackerrank</code>, they are 
 competitive programming sites having large community of brilliant coders. Start solving the easy questions, this will help you in the 1st year
 C Language course. Next comes <code>Git</code>, get an account in <code>github</code> and learn how to use it (My Suggestion: make your homepage by using github). The 
-open source world belongs to it so you may love it there, moreover using git is a preliminary knowledge to get yourself a project.
+open source world belongs to it so you may love it there, moreover using git is a preliminary knowledge to get yourself a smooth working project.
 Till this is sufficient for your Kick Start, what you should remember is that you must 
 practice things regularly in order to hone your skills. I know there will be people having done these already, 
 for those people reading this, you all are at a step ahead from others, you may explore other unkown fields such as 
