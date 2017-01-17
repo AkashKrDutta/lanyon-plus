@@ -13,7 +13,8 @@ Question: What is the first thing one should try if you want to suceed in THE co
 <br>
 My "bachcha" asked me this question who is from the CSE Department. I knew that there is always a lot of
 discussion and debate but a lack of proper consultation about it in the freshman as to what to start from. How to build up your coding skills
-and compete among your batchmates. This starting moment makes a huge difference, believe me !
+and compete among your batchmates.
+<!--more--> This starting moment makes a huge difference, believe me !
 What, how and WHEN you start from is one of the most important learing aspects and difference
 maker.<br>
 
