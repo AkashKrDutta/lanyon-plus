@@ -34,4 +34,4 @@ style: |
 {% endcomment %} 
 
 <!-- Alternaetly, user html5 embed tag -->
-<iframe src="{{ site.url }}/files/cv.pdf" width="100%" height="100%"></iframe>
+<iframe src="{{ site.url }}/files/cv.pdf" width="100%" style="height: 100vh;"></iframe>
