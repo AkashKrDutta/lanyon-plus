@@ -7,7 +7,7 @@ tag:
 comments: true
 ---
 
-Well I am a Student Guide and I got this question asked:
+Well I was a Student Guide and I got this question asked:
 <br>
 Question: What is the first thing one should try if you want to succeed in THE coding world?
 <br>
@@ -33,7 +33,7 @@ Next grab up some <code>html</code>, <code>javascript</code>, and <code>CSS</cod
 <br>
 Done? Now comes the most important part. Get an account in <code>Codechef</code> or <code>Hackerrank</code>, they are 
 competitive programming sites having large community of brilliant coders. Start solving the easy questions, this will help you in the 1st year
-C Language course. Next comes <code>Git</code>, get an account in <code>github</code> and learn how to use it (My Suggestion: make your homepage by using github). The 
+C Language course. These will further help in learning algorithms, which I am sure eveyone finds so interesting that they are always asked in interview questions, whatever the company works on (lol !). Jokes apart, competitive programming is a must to do, infact you may devote all your time doing it, if you dont find other stuffs interesting. Next comes <code>Git</code>, get an account in <code>github</code> and learn how to use it (My Suggestion: make your homepage by using github). The 
 open source world belongs to it so you may love it there, moreover using git is a preliminary knowledge to get yourself a smooth working project.
 Till this is sufficient for your Kick Start, what you should remember is that you must 
 practice things regularly in order to hone your skills. I know there will be people having done these already, 
