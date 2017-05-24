@@ -37,7 +37,7 @@ C Language course. These will further help in learning algorithms, which I am su
 open source world belongs to it so you may love it there, moreover using git is a preliminary knowledge to get yourself a smooth working project.
 Till this is sufficient for your Kick Start, what you should remember is that you must 
 practice things regularly in order to hone your skills. I know there will be people having done these already, you may explore other unkown fields such as 
-Parallel Programming, Machine Learning.. how ? Get to know your seniors!.<br>
+Parallel Programming, Machine Learning.. how ? Get to know your seniors!<br>
 
 **Things Not To Do:**
 <br>
