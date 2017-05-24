@@ -17,7 +17,7 @@ Maximum four posts on front page where first two posts are featured, and remaini
 {% endcomment %}
 # **Welcome**
 <i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i><span style="font-family:Tangerine;font-size:200%">"By experiencing both, victory and defeat, running away and shedding tears, a man will become a man."<br>&mdash;&nbsp;Shanks, One Piece</span>
-<center><img height="100%" width="100%" src="{{ site.urlimg }}/me.jpg" ></center>
+<center><img height="130%" width="200%" src="{{ site.urlimg }}/me.jpg" ></center>
 <!--p style="text-align:right"><span style="font-style:italic">Quote<br>"By experiencing both, victory and defeat, running away and<br>	 shedding tears, a man will become a man."</span><br> <span style="font-style:italic">&mdash;&nbsp;Shanks, One Piece</span> </p-->
 Hi! myself an enthusiastic sophomore from Computer Science and Engineering Department, IIT KANPUR. In Computer Science, my areas of interest are <code>parallel programming</code>, <code>web development</code>, <code>competitive programming</code> and <code>gamedev</code>.<br> Hope you get some useful stuff around here!<br>
 {% comment %}
